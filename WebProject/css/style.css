@@ -1,0 +1,82 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.clear {
+	clear: both;
+}
+
+/************ header ****************/
+.tel{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	color: #000000;
+	line-height: 16px;
+	text-decoration: none;
+}
+
+.email {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 16px;
+	color: #808080;
+	text-decoration: none;
+}
+
+.page_cell {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.header__logo {
+	float: left;
+}
+
+.header__contact {
+	float: right;
+	text-align: right;
+}
+
+.header__email {
+	margin-top: 6px;
+}
+.header {
+	margin-top: 35px;
+	border-bottom: 1px solid #cccccc; 
+	padding-bottom: 30px;
+}
+
+/************ end header ****************/
+/************ navigation ****************/
+.nav__menu {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	margin: 28px;
+}
+
+.nav__item {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color: #000000;
+	font-size: 19px;
+	transition: .2s;
+	cursor: pointer;
+}
+
+.nav__item:hover {
+	color: #f44336;
+}
+/************ end navigation ****************/
+/************ slider ****************/
+.slider__item {
+	background-image: url('../images/bg.jpg');
+	background-size: cover;
+	background-position: center;
+	padding-top: 36%;
+}
+/************ end slider ****************/
